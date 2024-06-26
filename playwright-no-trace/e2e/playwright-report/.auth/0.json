@@ -1,4 +1,14 @@
 {
   "cookies": [],
-  "origins": []
+  "origins": [
+    {
+      "origin": "https://demo.wpeverest.com",
+      "localStorage": [
+        {
+          "name": "NRBA_SESSION",
+          "value": "{\"value\":\"b8399872b3480286\",\"inactiveAt\":1719410722579,\"expiresAt\":1719423322489,\"updatedAt\":1719408922579,\"sessionReplayMode\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":0,\"traceHarvestStarted\":false,\"serverTimeDiff\":null,\"custom\":{}}"
+        }
+      ]
+    }
+  ]
 }

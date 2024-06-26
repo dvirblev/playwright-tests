@@ -1,6 +1,12 @@
 import { test, expect } from '../fixture';
 
 test('has title', async ({ page }) => {
+  await page.waitForResponse(
+      (response) =>
+          response.url().includes('/stam/') &&
+          response.status() === 200,
+  );
+
   await page.goto('https://demo.wpeverest.com/user-registration/login/');
 
   await page.getByLabel('Username or Email Address').fill(process.env['USERNAME'] ?? '');
